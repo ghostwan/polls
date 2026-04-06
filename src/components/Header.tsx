@@ -18,9 +18,12 @@ export default function Header() {
               </p>
             </div>
           </div>
-          <div className="hidden sm:flex items-center gap-2 text-xs text-gray-400">
-            <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
-            Données de 2002 à 2024
+          <div className="hidden sm:flex items-center gap-4 text-xs text-gray-400">
+            <span>v{__APP_VERSION__}</span>
+            <div className="flex items-center gap-2">
+              <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
+              Données de 2002 à 2024
+            </div>
           </div>
         </div>
       </div>
