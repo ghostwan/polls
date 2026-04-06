@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 
 export default function Header() {
   const [visits, setVisits] = useState<number | null>(null)
+  const [showVisits, setShowVisits] = useState(false)
 
   useEffect(() => {
     fetch('https://hits.dwyl.com/ghostwan/polls.json')
@@ -29,13 +30,18 @@ export default function Header() {
             </div>
           </div>
           <div className="hidden sm:flex items-center gap-4 text-xs text-gray-400">
-            {visits !== null && (
-              <div className="flex items-center gap-1">
+            {showVisits && visits !== null && (
+              <div className="flex items-center gap-1 animate-fade-in">
                 <Eye className="w-3.5 h-3.5" />
                 <span>{visits.toLocaleString('fr-FR')}</span>
               </div>
             )}
-            <span>v{__APP_VERSION__}</span>
+            <button
+              onClick={() => setShowVisits(v => !v)}
+              className="hover:text-gray-600 transition-colors cursor-pointer"
+            >
+              v{__APP_VERSION__}
+            </button>
             <div className="flex items-center gap-2">
               <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
               Données de 2002 à 2024
