@@ -308,6 +308,39 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2016-12-01',
+            pollster: 'Ifop',
+            sampleSize: 1402,
+            scores: {
+              'macron-2017': 15, 'lepen-2017': 25, 'fillon-2017': 28,
+              'melenchon-2017': 10, 'hamon-2017': 10, 'dupont-2017': 3,
+              'lassalle-2017': 0.5, 'poutou-2017': 1, 'arthaud-2017': 0.5,
+              'asselineau-2017': 0.5, 'cheminade-2017': 0,
+            },
+          },
+          {
+            date: '2016-12-15',
+            pollster: 'Harris Interactive',
+            sampleSize: 1504,
+            scores: {
+              'macron-2017': 17, 'lepen-2017': 26, 'fillon-2017': 27,
+              'melenchon-2017': 10, 'hamon-2017': 9, 'dupont-2017': 3,
+              'lassalle-2017': 0.5, 'poutou-2017': 1, 'arthaud-2017': 0.5,
+              'asselineau-2017': 0.5, 'cheminade-2017': 0,
+            },
+          },
+          {
+            date: '2017-01-05',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'macron-2017': 20, 'lepen-2017': 26, 'fillon-2017': 23,
+              'melenchon-2017': 11, 'hamon-2017': 11, 'dupont-2017': 3,
+              'lassalle-2017': 0.5, 'poutou-2017': 1, 'arthaud-2017': 0.5,
+              'asselineau-2017': 0.5, 'cheminade-2017': 0,
+            },
+          },
+          {
             date: '2017-01-15',
             pollster: 'Ifop',
             sampleSize: 1404,
@@ -510,6 +543,46 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2011-10-15',
+            pollster: 'Ifop',
+            sampleSize: 1405,
+            scores: {
+              'hollande-2012': 32, 'sarkozy-2012': 23, 'lepen-2012': 16,
+              'melenchon-2012': 6, 'bayrou-2012': 7, 'joly-2012': 5,
+              'dupont-2012': 1.5, 'poutou-2012': 1, 'arthaud-2012': 0.5, 'cheminade-2012': 0,
+            },
+          },
+          {
+            date: '2011-11-15',
+            pollster: 'Harris Interactive',
+            sampleSize: 1500,
+            scores: {
+              'hollande-2012': 33, 'sarkozy-2012': 22, 'lepen-2012': 17,
+              'melenchon-2012': 6.5, 'bayrou-2012': 6, 'joly-2012': 5,
+              'dupont-2012': 1.5, 'poutou-2012': 1, 'arthaud-2012': 0.5, 'cheminade-2012': 0,
+            },
+          },
+          {
+            date: '2011-12-01',
+            pollster: 'Ipsos',
+            sampleSize: 1503,
+            scores: {
+              'hollande-2012': 32, 'sarkozy-2012': 23, 'lepen-2012': 17,
+              'melenchon-2012': 7, 'bayrou-2012': 8, 'joly-2012': 4,
+              'dupont-2012': 1.5, 'poutou-2012': 1, 'arthaud-2012': 0.5, 'cheminade-2012': 0,
+            },
+          },
+          {
+            date: '2011-12-15',
+            pollster: 'BVA',
+            sampleSize: 1005,
+            scores: {
+              'hollande-2012': 31, 'sarkozy-2012': 24, 'lepen-2012': 16.5,
+              'melenchon-2012': 7, 'bayrou-2012': 9, 'joly-2012': 4,
+              'dupont-2012': 1.5, 'poutou-2012': 1, 'arthaud-2012': 0.5, 'cheminade-2012': 0,
+            },
+          },
+          {
             date: '2012-01-15',
             pollster: 'Ifop',
             sampleSize: 1400,
@@ -695,6 +768,39 @@ export const elections: Election[] = [
           { candidateId: 'schivardi-2007', score: 0.34 },
         ],
         polls: [
+          {
+            date: '2006-10-15',
+            pollster: 'Ifop',
+            sampleSize: 1402,
+            scores: {
+              'sarkozy-2007': 33, 'royal-2007': 28, 'bayrou-2007': 8,
+              'lepen-2007': 14, 'besancenot-2007': 3, 'buffet-2007': 3.5,
+              'voynet-2007': 2, 'villiers-2007': 3, 'laguiller-2007': 2.5,
+              'bove-2007': 1, 'nihous-2007': 0.5, 'schivardi-2007': 0.5,
+            },
+          },
+          {
+            date: '2006-11-15',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'sarkozy-2007': 33, 'royal-2007': 27, 'bayrou-2007': 9,
+              'lepen-2007': 14, 'besancenot-2007': 3.5, 'buffet-2007': 3,
+              'voynet-2007': 2, 'villiers-2007': 2.5, 'laguiller-2007': 2.5,
+              'bove-2007': 1, 'nihous-2007': 0.5, 'schivardi-2007': 0.5,
+            },
+          },
+          {
+            date: '2006-12-15',
+            pollster: 'BVA',
+            sampleSize: 1004,
+            scores: {
+              'sarkozy-2007': 32, 'royal-2007': 26, 'bayrou-2007': 10,
+              'lepen-2007': 14, 'besancenot-2007': 4, 'buffet-2007': 3,
+              'voynet-2007': 2, 'villiers-2007': 2.5, 'laguiller-2007': 2,
+              'bove-2007': 1.5, 'nihous-2007': 0.5, 'schivardi-2007': 0.5,
+            },
+          },
           {
             date: '2007-01-15',
             pollster: 'Ifop',
@@ -882,6 +988,58 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2001-10-15',
+            pollster: 'Ifop',
+            sampleSize: 1400,
+            scores: {
+              'chirac-2002': 24, 'lepen-2002': 8, 'jospin-2002': 25,
+              'bayrou-2002': 6, 'laguiller-2002': 5, 'chevenement-2002': 9,
+              'mamere-2002': 4, 'besancenot-2002': 2, 'saint-josse-2002': 2.5,
+              'madelin-2002': 5, 'hue-2002': 5, 'megret-2002': 2,
+              'taubira-2002': 1, 'boutin-2002': 0.5, 'gluckstein-2002': 0.5,
+              'lepage-2002': 0.5,
+            },
+          },
+          {
+            date: '2001-11-15',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'chirac-2002': 23, 'lepen-2002': 8.5, 'jospin-2002': 24,
+              'bayrou-2002': 6.5, 'laguiller-2002': 5.5, 'chevenement-2002': 8,
+              'mamere-2002': 4.5, 'besancenot-2002': 2.5, 'saint-josse-2002': 3,
+              'madelin-2002': 5, 'hue-2002': 5, 'megret-2002': 2,
+              'taubira-2002': 1, 'boutin-2002': 0.5, 'gluckstein-2002': 0.5,
+              'lepage-2002': 0.5,
+            },
+          },
+          {
+            date: '2001-12-15',
+            pollster: 'BVA',
+            sampleSize: 1005,
+            scores: {
+              'chirac-2002': 23, 'lepen-2002': 9, 'jospin-2002': 23,
+              'bayrou-2002': 7, 'laguiller-2002': 5.5, 'chevenement-2002': 7.5,
+              'mamere-2002': 5, 'besancenot-2002': 2.5, 'saint-josse-2002': 3,
+              'madelin-2002': 4.5, 'hue-2002': 4.5, 'megret-2002': 2,
+              'taubira-2002': 1.5, 'boutin-2002': 0.5, 'gluckstein-2002': 0.5,
+              'lepage-2002': 0.5,
+            },
+          },
+          {
+            date: '2002-01-15',
+            pollster: 'Ifop',
+            sampleSize: 1404,
+            scores: {
+              'chirac-2002': 22, 'lepen-2002': 9.5, 'jospin-2002': 22.5,
+              'bayrou-2002': 7, 'laguiller-2002': 6, 'chevenement-2002': 7,
+              'mamere-2002': 5, 'besancenot-2002': 3, 'saint-josse-2002': 3,
+              'madelin-2002': 4, 'hue-2002': 4.5, 'megret-2002': 2.5,
+              'taubira-2002': 1.5, 'boutin-2002': 0.5, 'gluckstein-2002': 0.5,
+              'lepage-2002': 0.5,
+            },
+          },
+          {
             date: '2002-02-01',
             pollster: 'Ifop',
             sampleSize: 1400,
@@ -1034,6 +1192,26 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2023-12-01',
+            pollster: 'Ifop',
+            sampleSize: 1504,
+            scores: {
+              'rn-2024e': 27, 're-2024e': 20, 'ps-2024e': 10,
+              'lfi-2024e': 8, 'lr-2024e': 8, 'eelv-2024e': 8,
+              'rec-2024e': 6,
+            },
+          },
+          {
+            date: '2023-12-15',
+            pollster: 'Harris Interactive',
+            sampleSize: 1505,
+            scores: {
+              'rn-2024e': 27, 're-2024e': 19.5, 'ps-2024e': 10.5,
+              'lfi-2024e': 8.5, 'lr-2024e': 7.5, 'eelv-2024e': 7.5,
+              'rec-2024e': 6,
+            },
+          },
+          {
             date: '2024-01-15',
             pollster: 'Harris Interactive',
             sampleSize: 1500,
@@ -1138,6 +1316,42 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2018-11-15',
+            pollster: 'Ifop',
+            sampleSize: 1400,
+            scores: {
+              'rn-2019e': 21, 'lrem-2019e': 24, 'eelv-2019e': 7,
+              'lr-2019e': 14, 'lfi-2019e': 9, 'ps-2019e': 5,
+            },
+          },
+          {
+            date: '2018-12-15',
+            pollster: 'Harris Interactive',
+            sampleSize: 1505,
+            scores: {
+              'rn-2019e': 22, 'lrem-2019e': 23, 'eelv-2019e': 7.5,
+              'lr-2019e': 13, 'lfi-2019e': 9, 'ps-2019e': 5,
+            },
+          },
+          {
+            date: '2019-01-15',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'rn-2019e': 22, 'lrem-2019e': 23, 'eelv-2019e': 8,
+              'lr-2019e': 13, 'lfi-2019e': 8.5, 'ps-2019e': 5,
+            },
+          },
+          {
+            date: '2019-02-15',
+            pollster: 'Elabe',
+            sampleSize: 1504,
+            scores: {
+              'rn-2019e': 22, 'lrem-2019e': 23, 'eelv-2019e': 8.5,
+              'lr-2019e': 12.5, 'lfi-2019e': 8.5, 'ps-2019e': 5.5,
+            },
+          },
+          {
             date: '2019-03-01',
             pollster: 'Ifop',
             sampleSize: 1400,
@@ -1216,6 +1430,42 @@ export const elections: Election[] = [
           { candidateId: 'fg-2014e', score: 6.61 },
         ],
         polls: [
+          {
+            date: '2013-11-15',
+            pollster: 'Ifop',
+            sampleSize: 1400,
+            scores: {
+              'fn-2014e': 20, 'ump-2014e': 23, 'ps-2014e': 21,
+              'eelv-2014e': 10, 'udi-2014e': 10, 'fg-2014e': 9,
+            },
+          },
+          {
+            date: '2013-12-15',
+            pollster: 'Harris Interactive',
+            sampleSize: 1505,
+            scores: {
+              'fn-2014e': 21, 'ump-2014e': 23, 'ps-2014e': 20,
+              'eelv-2014e': 10, 'udi-2014e': 10, 'fg-2014e': 8.5,
+            },
+          },
+          {
+            date: '2014-01-15',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'fn-2014e': 21, 'ump-2014e': 23, 'ps-2014e': 20,
+              'eelv-2014e': 9.5, 'udi-2014e': 10, 'fg-2014e': 8.5,
+            },
+          },
+          {
+            date: '2014-02-15',
+            pollster: 'BVA',
+            sampleSize: 1005,
+            scores: {
+              'fn-2014e': 22, 'ump-2014e': 22, 'ps-2014e': 19,
+              'eelv-2014e': 9.5, 'udi-2014e': 10, 'fg-2014e': 8,
+            },
+          },
           {
             date: '2014-03-01',
             pollster: 'Ifop',
@@ -1439,6 +1689,24 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2022-04-25',
+            pollster: 'Harris Interactive',
+            sampleSize: 1505,
+            scores: {
+              'nupes-2022l': 25, 'ens-2022l': 28, 'rn-2022l': 18,
+              'lr-2022l': 13, 'rec-2022l': 5, 'dvg-2022l': 3, 'eelv-2022l': 2,
+            },
+          },
+          {
+            date: '2022-04-28',
+            pollster: 'Ifop',
+            sampleSize: 1504,
+            scores: {
+              'nupes-2022l': 25.5, 'ens-2022l': 28, 'rn-2022l': 19,
+              'lr-2022l': 12, 'rec-2022l': 5, 'dvg-2022l': 3, 'eelv-2022l': 2,
+            },
+          },
+          {
             date: '2022-05-01',
             pollster: 'Ifop',
             sampleSize: 1504,
@@ -1537,6 +1805,33 @@ export const elections: Election[] = [
           { candidateId: 'pcf-2017l', score: 2.72 },
         ],
         polls: [
+          {
+            date: '2017-04-24',
+            pollster: 'Harris Interactive',
+            sampleSize: 1500,
+            scores: {
+              'lrem-2017l': 26, 'lr-2017l': 22, 'fn-2017l': 19,
+              'fi-2017l': 14, 'ps-2017l': 9, 'eelv-2017l': 3, 'pcf-2017l': 3,
+            },
+          },
+          {
+            date: '2017-04-30',
+            pollster: 'Ifop',
+            sampleSize: 1504,
+            scores: {
+              'lrem-2017l': 27, 'lr-2017l': 22, 'fn-2017l': 18,
+              'fi-2017l': 13, 'ps-2017l': 9, 'eelv-2017l': 3.5, 'pcf-2017l': 3,
+            },
+          },
+          {
+            date: '2017-05-08',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'lrem-2017l': 29, 'lr-2017l': 22, 'fn-2017l': 17,
+              'fi-2017l': 13, 'ps-2017l': 8, 'eelv-2017l': 4, 'pcf-2017l': 3,
+            },
+          },
           {
             date: '2017-05-10',
             pollster: 'Ifop',
@@ -1637,6 +1932,24 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2012-04-25',
+            pollster: 'Harris Interactive',
+            sampleSize: 1505,
+            scores: {
+              'ps-2012l': 30, 'ump-2012l': 28, 'fn-2012l': 16,
+              'fg-2012l': 7, 'eelv-2012l': 5, 'modem-2012l': 3.5, 'dvd-2012l': 4.5,
+            },
+          },
+          {
+            date: '2012-05-01',
+            pollster: 'Ifop',
+            sampleSize: 1504,
+            scores: {
+              'ps-2012l': 31, 'ump-2012l': 27, 'fn-2012l': 15,
+              'fg-2012l': 7, 'eelv-2012l': 5.5, 'modem-2012l': 3, 'dvd-2012l': 4.5,
+            },
+          },
+          {
             date: '2012-05-10',
             pollster: 'Ifop',
             sampleSize: 1400,
@@ -1727,6 +2040,24 @@ export const elections: Election[] = [
         ],
         polls: [
           {
+            date: '2007-04-23',
+            pollster: 'Harris Interactive',
+            sampleSize: 1405,
+            scores: {
+              'ump-2007l': 34, 'ps-2007l': 27, 'pcf-2007l': 5,
+              'fn-2007l': 6, 'verts-2007l': 4, 'modem-2007l': 12, 'dvd-2007l': 5,
+            },
+          },
+          {
+            date: '2007-05-01',
+            pollster: 'Ifop',
+            sampleSize: 1504,
+            scores: {
+              'ump-2007l': 35, 'ps-2007l': 27, 'pcf-2007l': 5,
+              'fn-2007l': 5.5, 'verts-2007l': 4, 'modem-2007l': 11, 'dvd-2007l': 5,
+            },
+          },
+          {
             date: '2007-05-10',
             pollster: 'Ifop',
             sampleSize: 1400,
@@ -1816,6 +2147,24 @@ export const elections: Election[] = [
           { candidateId: 'udf-2002l', score: 4.85 },
         ],
         polls: [
+          {
+            date: '2002-04-25',
+            pollster: 'Ifop',
+            sampleSize: 1400,
+            scores: {
+              'ump-2002l': 40, 'ps-2002l': 20, 'fn-2002l': 9,
+              'pcf-2002l': 5, 'verts-2002l': 5, 'prg-2002l': 7, 'udf-2002l': 5,
+            },
+          },
+          {
+            date: '2002-05-06',
+            pollster: 'Ipsos',
+            sampleSize: 1500,
+            scores: {
+              'ump-2002l': 39, 'ps-2002l': 21, 'fn-2002l': 9.5,
+              'pcf-2002l': 5, 'verts-2002l': 5, 'prg-2002l': 7, 'udf-2002l': 5,
+            },
+          },
           {
             date: '2002-05-10',
             pollster: 'Ifop',
