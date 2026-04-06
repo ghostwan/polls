@@ -1,6 +1,16 @@
-import { BarChart3 } from 'lucide-react'
+import { BarChart3, Eye } from 'lucide-react'
+import { useEffect, useState } from 'react'
 
 export default function Header() {
+  const [visits, setVisits] = useState<number | null>(null)
+
+  useEffect(() => {
+    fetch('https://hits.dwyl.com/ghostwan/polls.json')
+      .then(res => res.json())
+      .then(data => setVisits(Number(data.message)))
+      .catch(() => {})
+  }, [])
+
   return (
     <header className="bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,6 +29,12 @@ export default function Header() {
             </div>
           </div>
           <div className="hidden sm:flex items-center gap-4 text-xs text-gray-400">
+            {visits !== null && (
+              <div className="flex items-center gap-1">
+                <Eye className="w-3.5 h-3.5" />
+                <span>{visits.toLocaleString('fr-FR')}</span>
+              </div>
+            )}
             <span>v{__APP_VERSION__}</span>
             <div className="flex items-center gap-2">
               <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
